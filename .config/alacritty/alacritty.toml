@@ -1,0 +1,15 @@
+[general]
+import = [ "~/.config/alacritty/themes/jellybeans.toml" ]
+live_config_reload = true
+
+[window]
+padding = { x = 5, y = 5}
+dynamic_padding = false
+
+[font]
+size = 11
+offset = { y = 1 }
+normal = { family = "MonaspiceArNerdFont", style = "Medium" }
+bold = { family = "MonaspiceArNerdFont", style = "Bold" }
+italic = { family = "MonaspiceArNerdFont", style = "Italic" }
+bold_italic = { family = "MonaspiceArNerdFont", style = "Bold Italic" }
