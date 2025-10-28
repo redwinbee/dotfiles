@@ -12,3 +12,7 @@ function parse_git_branch {
 
 PS1="\[$(tput setaf 243)\][\A] \[$(tput setaf 210)\]\h\[$(tput setaf 249)\]:\[$(tput setaf 181)\]\W \[$(tput setaf 249)\]| \[$(tput sgr0)\]"
 
+
+# Created by `pipx` on 2025-10-19 19:24:29
+export PATH="$PATH:/home/redwinbee/.local/bin"
+eval "$(register-python-argcomplete pipx)"
