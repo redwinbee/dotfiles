@@ -1,0 +1,18 @@
+theme = Jellybeans
+
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
+window-decoration = none
+
+shell-integration-features = no-cursor
+cursor-style = block
+
+font-size = 12
+font-family = "CaskaydiaCove NF SemiBold"
+font-family-bold = "CaskaydiaCove NF Bold"
+font-family-italic = "CaskaydiaCove NF Italic"
+font-family-bold-italic = "CaskaydiaCove NF Bold Italic"
+
+adjust-cell-width = 1
+adjust-cell-height = 4
