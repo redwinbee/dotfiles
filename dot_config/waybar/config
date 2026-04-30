@@ -1,0 +1,29 @@
+{
+    "layer": "top",
+    "modules-left": ["hyprland/workspaces"],
+    "modules-right": ["network", "wireplumber", "battery"],
+    "modules-center": ["clock"],
+    "clock": {
+        "interval": 60,
+	"format": "{:%a, %b %d | %H:%M}",
+	"max-length": 25,
+    },
+    "network": {
+        "format": "{ifname}",
+	"format-wifi": "{essid} 󰘊",
+	"format-ethernet": "{ipaddr}/{cidr}",
+    },
+    "wireplumber": {
+        "format": "{volume}% {icon}",
+	"format-muted": "",
+	"format-icons": [""],
+    },
+    "battery": {
+        "interval": 60,
+	"format": "{capacity}% {icon}",
+	"format-icons": {
+            "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+	    "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
+	},
+    },
+}

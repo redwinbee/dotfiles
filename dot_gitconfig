@@ -1,0 +1,10 @@
+[user]
+	name = Edwin Bermudes
+	email = edwin@zwsp.io
+	signingkey = 72B002450BDFD1A6
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
+[init]
+	defaultBranch = main

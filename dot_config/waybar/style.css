@@ -1,0 +1,27 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "MonaspiceNe Nerd Font Propo", monospace;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: #121212;
+}
+
+.module {
+    padding: 3px;
+}
+
+.modules-right {
+    padding-right: 5px;
+}
+
+.modules-left {
+    padding-left: 5px;
+}
+
+label.module {
+    padding: 3px;
+}
